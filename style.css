@@ -1,0 +1,53 @@
+*
+{
+	margin:10px;
+	padding:1px;
+	border:1px soild;
+	}
+	h1{text-align:center;}
+	#first{color:red;}
+	.space{color:green;}
+	ul li{color:red;}
+	div >p{color:green;}
+	a:link{color:orange;}
+	a:active{color:violet;}
+	a:hover{color:black;}
+table,th,td{
+border:1px solid red;
+border-collapse:collapse;
+		}
+		tr:nth-child(even)
+		{
+			background-color:green;
+		}
+		tr:nth-child(odd)
+		{background-color:pink;
+		}
+		h1::first-letter{
+			color:blue;
+			font-size:100px;
+		}	
+		#s::after
+		{
+			content:"css";
+			
+		}
+		#s::before
+		{
+			content:"js";
+		}
+		ul li::marker
+		{
+			color:green;
+		}
+		::selection
+		{
+			color:yellow;
+		}
+		 body
+		 {
+			font-family: 'Dancing Script', cursive;
+		 }
+		
+		
+				
